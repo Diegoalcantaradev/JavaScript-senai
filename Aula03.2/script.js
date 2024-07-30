@@ -1,8 +1,8 @@
 
     let num = [] 
-
-    for(let i = 0; i < 3; i++){
-        let digitos = prompt("Digite 3 numeros")
+    let qtd = prompt("quantos numeros deseja digitar?")
+    for(let i = 0; i < qtd; i++){
+        let digitos = prompt("Digite " + qtd +" numeros")
         num[i] = digitos
     }
-    alert("numeros ", num[0] + num[1] + num[2])
+    alert("numeros "+ num[2] + num[1] + num[0])
