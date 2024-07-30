@@ -14,3 +14,5 @@ let valorPremiado = math.floor(math.random() * 10)
     }
     }
         alert(`valores tentando: ${valores}`)
+
+        
