@@ -1,0 +1,43 @@
+
+    @charset "UTF-8";
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left, #191d8e, #303391 );
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #28283C;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #000000;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 3px #000000;
+}
+h2{
+    color: #000000;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 3px #000000;
+}
+h3{
+    color: #b50000;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 3px #910101;
+}
+input{
+    text-align: center;
+    width: 120px;
+    border-radius: 5px;
+    margin: auto;
+}
+button{
+    margin: auto;
+}

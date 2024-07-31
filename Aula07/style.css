@@ -1,0 +1,18 @@
+@charset "UTF-8";
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #28283C;
+    padding: 10px;
+    margin: auto;
+}
+body{
+    background-image: linear-gradient(to left, black, gray);
+}
+h1{
+    text-align: center;
+}
+#botão{
+    align-items: center;
+}
