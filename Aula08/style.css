@@ -1,0 +1,30 @@
+@charset "UTF-8";
+main{
+    background-color: #FEF8E8;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #35120c;
+    padding: 10px;
+    margin: auto;
+}
+body{
+    background-image: linear-gradient(to left, #220C08, #F48B4D, #F48B4D, #220C08)
+}
+h1{
+    
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px 2px #854339a5;
+
+}
+#fotoperfil{
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #35120c;
+}
+#links{
+    text-align: center;
+}
+#biografia{
+    text-align: justify;
+}

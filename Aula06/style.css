@@ -11,7 +11,7 @@ body{
 
 main{
     background-color: white;
-    width: 600px;
+    width: 800px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #28283C;
     padding: 10px;
@@ -20,7 +20,7 @@ main{
 h1{
     color: #000000;
     text-align: center;
-    text-shadow: 0.5px 0.5px 3px #000000;
+    text-shadow: 0.5px 0.5px 1.5px #000000;
 }
 h2{
     color: #000000;
