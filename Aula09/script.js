@@ -10,7 +10,7 @@ array.forEach((elemento) => console.log(elemento))
 
 // Resultado: exibir cada elemento do array no terminal [10,5,8,15]
 
-// (2) - Map(): criar um novo array com os resultados da função de callback passada por argumento
+// (2) - MAP(): criar um novo array com os resultados da função de callback passada por argumento
 
 let arrayDobro = array.map((elemento) => elemento * 2)
 
@@ -23,3 +23,11 @@ array.filter((elemento)=> elemento > 5) //Resultado: [10,8,15]
 // (4) - concat(): retornar um array que é a concatenação de arrays passados como argumento
 
 console.log(array.concat(arrayDobro))
+
+// (5) - FIND(): retorna o primeiro elemento do array que satisfaz a função de teste fornecida
+
+console.log(array.find((elemento)=> elemento %2 == 0))
+
+// (6) - FINDINDEX(): retorna o index do primeiro elemento do array que satisfaz a função de teste
+
+console.log(array.findIndex((elemento) => elemento % 2 == 0))
